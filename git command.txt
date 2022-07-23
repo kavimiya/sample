@@ -7,3 +7,6 @@ same all  step 2: but step 3 is
 modifier in first step:
 git pull #Recive a git 
 and follw step3:
+
+next step:
+git add . # this using all files selected use command
