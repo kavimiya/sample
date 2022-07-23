@@ -9,4 +9,7 @@ git pull #Recive a git
 and follw step3:
 
 next step:
-git add . # this using all files selected use command
+1.git add . # this using all files selected use command
+2.git checkout -b "name" # this a new branches created
+3.git ceckout name  # change a branches 
+4.git merge name # in addd local add 
