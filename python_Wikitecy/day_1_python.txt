@@ -1,0 +1,2 @@
+#single line in multi line use
+a=10;b=20;print(a+b)

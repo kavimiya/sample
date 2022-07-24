@@ -5,6 +5,7 @@ step3: git push -u master # this sent for git
 second time:
 same all  step 2: but step 3 is 
 modifier in first step:
+
 git pull #Recive a git 
 and follw step3:
 
