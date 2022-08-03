@@ -1,5 +1,6 @@
 #pandas
 import pandas as qq
+import json 
 
 """vv={"Name":['sathish','kumar','mani'],#pandas use create data frame
     "age":[22,33,44]}
@@ -29,3 +30,18 @@ print(ff.to_string)
 
 print("----------------------------------------------------------")
 print(qq.options.display.max_rows)#this system row how many stored
+
+qq.options.display.max_rows=9998
+kk=qq.read_csv('aaa.csv')
+print(kk)
+
+print("----------------------------------------------------")
+#json
+
+
+l={"ma1":{"sathish":55,"kumar":77,"kavi":88},"ma2":{"sathish":88,"kumar":66,"kavi":99}}
+
+#l.to_json('summa.json')
+bb=qq.DataFrame(l)
+print(bb)
+bb.to_json('jj.json')
