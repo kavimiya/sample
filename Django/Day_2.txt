@@ -1,0 +1,6 @@
+1.)first django file move
+2.)django server run --> python manage.py runserver 
+3.)link paster web is  server ok 
+4.)and next application start --> 
+5.)python manage.py startapp firapp
+                             #this your own name
