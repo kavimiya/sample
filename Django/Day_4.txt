@@ -1,0 +1,14 @@
+today 
+urls.py file viwes file only for function but link for uels file
+goto urls file -->
+1.)from firstapp import views #add what file your  code import 
+2.)   path('love/', views.love) #path give in lovesk is own and where file views  .love is what function  
+love/  #this your own choose   
+
+ok your first app run 
+again run 
+python manage.py runserver
+
+
+link paste 
+http://127.0.0.1:8000/love/ #show hi l love you 

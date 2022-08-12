@@ -1,7 +1,7 @@
 Git Command :
 step1: git add Name.txt
 step2: git commit -m "text"
-step3: git push -u master # this sent for git 
+step3: git push -u origin  master # this sent for git 
 second time:
 same all  step 2: but step 3 is 
 modifier in first step:

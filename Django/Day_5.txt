@@ -1,0 +1,21 @@
+new project create 
+1.)Django-admin startproject sec
+2.)cd sec 
+3.)python manage.py startapp secpro
+
+
+views file add function
+
+add from django.http import HttpResponse
+
+
+
+def gm(request):
+ return HttpResponse('<h1>good moring </h2>')
+
+def gn(request):
+ return HttpResponse('<h1>good night </h2>')
+
+
+urls.py
+

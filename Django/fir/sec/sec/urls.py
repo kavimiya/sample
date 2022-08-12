@@ -1,4 +1,4 @@
-"""fir URL Configuration
+"""sec URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from firstapp import views
+from secpro import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('welcome/', views.love),
-    path('mental/', views.lusu)
+    path('love', views.hello),
+    path('gm',views.gm),
+    path('gn', views.gn)
 ]

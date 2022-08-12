@@ -5,7 +5,7 @@ design patten follow
  but django is follow in MVT-->model view templates
 
  Django as big web framwork
-1.pyinstall django
+1.pip install django
 2.Atom ide install use ide
   install plug in
   i)platformio-ide-Terminal

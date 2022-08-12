@@ -1,0 +1,12 @@
+1.)setings file --> your create app --install app down 'name add'
+2.)views .py la ne unga wep site application pana enna vaeum sollalm atha use view 
+   i)view sy use in two type talk 
+       I)function based views
+      II)Class based views
+
+add views file 
+1.)from django.http import HttpResponse  #This response function add
+2.) add def love(request): # this give i own functin in name
+     def love(request):#this function in open link open use
+         msg='<h1> hi i love you </h1>'#python addd html support in django
+          return HttpResponse(msg) #this return in masg masssage
