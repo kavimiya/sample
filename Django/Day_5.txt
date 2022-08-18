@@ -18,4 +18,18 @@ def gn(request):
 
 
 urls.py
+from django.urls import path
+from secpro import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('love', views.hello),
+    path('gm',views.gm),
+    path('gn', views.gn),
+    path('time', views.tell)
+    
+]
+
+
+
 

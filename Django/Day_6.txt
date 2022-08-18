@@ -1,0 +1,15 @@
+first date time  show :
+
+import datetime
+
+#function
+def tell(request):
+  time=datetime.datetime.now()
+  return HttpResponse('<h1> hi guys </h1>+str(time)') 
+
+
+
+urls file 
+
+
+path('time/,views.telltime')

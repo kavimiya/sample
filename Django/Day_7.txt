@@ -1,0 +1,2 @@
+create new projrct 
+django-admin startproject  
