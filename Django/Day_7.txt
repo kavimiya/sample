@@ -1,2 +1,28 @@
 create new projrct 
-django-admin startproject  
+1.django-admin startproject  thridpro
+
+Create application 
+2.django-admin startapp thrapp
+
+aplicaion open views open
+ 3. write function 
+
+4.app la create urls file 
+ write code 
+from django.contrib import admin
+from django.urls import path
+from thrapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('tell/',views.tell)
+]
+
+
+
+# project la urls file tell me in applcation urls irku so run pnana anga vara solu tell me 
+thrpro urls file write code 
+5.from django.conf.urls import url,include
+
+6.path('thrapp/',include('thrapp.urls')) # add 
+

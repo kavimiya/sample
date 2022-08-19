@@ -1,0 +1,83 @@
+today template 
+css--cascsding style sheet
+
+create folder 
+1.static folder # cd static
+
+2.images folder# all images this file store 
+---------------------------------------------------
+python code 
+print(__file__)    #file name print
+import os 
+
+print(os.path.abspath(__file__))
+
+print(os.path.abspath(__file__))#path print
+print(os.path.dirname(os.path.abspath(__file__)))#dir name print
+
+
+
+create new project
+
+1.django-admin startproject tempro
+app
+
+2.django-admin startapp temapp
+
+setings file 
+add name install app 
+3.'temapp'
+
+add new folder templates 
+4.Template folder # is project based folder
+so in more application 
+cd Template
+5.temapp#folder name applcation name 
+
+
+django file templates file tell me 
+settings file open 
+add
+6.import os 
+  dir 
+add
+7.BASE_DIR1=os.pathdirname(os.path.dirname(os.path.abspath(__file__)))
+
+this line get back in 
+add code
+8.TEMPLATE_DIR=os.path.join(BASE_DIR,'Templates')
+
+
+templates function file add 
+9.DIR[TEMPLATE_DIR]
+
+
+templates file open temapp file open 
+some html code
+ <html>
+<head>
+
+<title> index </title>
+
+</head>
+
+<body>
+<h1>hi welcome to django project 
+</h1>
+</body>
+</html>
+
+save aa..html#own name give 
+
+
+
+views file open 
+
+def dis(request):
+    return render (request,'temapp/aa.html')
+
+urls file  #this file show application based url file 
+#show project based file show 
+path('dispaly/',views.dis)
+
+

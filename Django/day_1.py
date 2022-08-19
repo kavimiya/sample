@@ -14,3 +14,10 @@ design patten follow
   
  
  '''
+
+print(__file__)#file name print use
+
+import os 
+
+print(os.path.abspath(__file__))#path print
+print(os.path.dirname(os.path.abspath(__file__)))#dir name print
